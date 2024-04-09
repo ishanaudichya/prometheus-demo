@@ -41,5 +41,5 @@ docker run -d -p 3000:3000 --name=grafana grafana/grafana-oss
 ### 3. Setup Loki Server
 
 ```bash
-docker run -d --name=loki -p 3100:3100 grafana/loki
+docker run -d --name=loki -port 3100:3100 grafana/loki
 ```
